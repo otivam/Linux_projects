@@ -1,4 +1,10 @@
-a = [12,3,3]
+class Person:
+	def __init__(self,name,age):
+		self.name = name
+		self.age = age
 
-for x in a:
-	print(x)
+
+p1 = Person("Gincho",29)
+
+print(p1.name)
+print(p1.age)
